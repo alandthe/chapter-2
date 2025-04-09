@@ -1,0 +1,17 @@
+=== CatSwap DEX Deployment ===
+
+1. QUICK DEPLOY:
+   - Drag folder to https://app.netlify.com/drop
+
+2. LOCAL TEST:
+   - Install Node.js
+   - Run: npx serve
+   - Open http://localhost:3000
+
+3. REQUIREMENTS:
+   - MetaMask with Sonic Chain (ID 146)
+   - WC Token: 0xDD175A39...
+   - Sonic Token: 0x039e2fB6...
+
+4. WALLETCONNECT:
+   Project ID: 1d7b16153de36a7ee42b7f5c64458846
