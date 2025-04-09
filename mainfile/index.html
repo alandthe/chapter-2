@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatSwap DEX</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div class="dex-container">
+    <h1>🐱 CatSwap DEX</h1>
+    <button id="connectWallet">Connect Wallet</button>
+    
+    <div class="swap-box">
+      <input type="number" id="fromAmount" placeholder="0.0">
+      <select id="fromToken">
+        <option value="WC">WC</option>
+        <option value="SONIC">SONIC</option>
+      </select>
+      
+      <button id="swapButton">🔁 Swap</button>
+      
+      <input type="number" id="toAmount" placeholder="0.0">
+      <select id="toToken">
+        <option value="SONIC">SONIC</option>
+        <option value="WC">WC</option>
+      </select>
+    </div>
+
+    <div class="liquidity-box">
+      <h2>💧 Liquidity</h2>
+      <button id="addLiquidity">Add Liquidity</button>
+      <button id="removeLiquidity">Remove Liquidity</button>
+    </div>
+  </div>
+
+  <script type="module" src="./js/config.js"></script>
+  <script type="module" src="./js/swaps.js"></script>
+  <script type="module" src="./js/liquidity.js"></script>
+</body>
+</html>
